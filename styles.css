@@ -1,9 +1,23 @@
+/* Fist nav bar */
 .bg-comash{
     background-color: #FAFAFA;
+}
+.bg-comash-1{
+    background-color: #bdc3c7;
 }
 
 .bg-danger{
     background-color: yellow;
+}
+
+#bg-red{
+    background-color: #EA3237;
+    border-radius: 50px ;
+}
+
+
+#bg-red :hover{
+    background-color: #c42c31;
 }
 
 .w-10{
@@ -49,3 +63,5 @@
     right: 4px;
     padding-left: 10px;
 }
+
+/* Secand nav bar */
