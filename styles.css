@@ -20,6 +20,10 @@
 #bg-red :hover{
     background-color: #c42c31;
 }
+.bg-end{
+    background-color: #F7F8F8;
+    font-size: 18px;
+}
 
 .w-10{
     width: 50px;
@@ -81,4 +85,42 @@
     width: 100%; 
     margin-top: 8rem;
     margin-left: 80px;
+}
+
+.fist-end{
+    position: relative;
+    margin-top: -50px;
+}
+.slid-btn{
+    width: 10px;
+    margin-top: 303px;
+    height: 50px;
+}
+#slid-line{
+    margin-bottom: 160px;
+}
+.text-end-icon{
+    color: #B3B4B9;
+}
+
+.text-end-p{
+    color: #3E4151;
+}
+
+.f-end-hover :hover{
+    color: #0094F5;
+    cursor: pointer;
+}
+
+.absolute-img{
+    width: 230px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1000;
+}
+
+.flex-img{
+    display: flex;
+    justify-content: end;
 }
