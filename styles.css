@@ -6,8 +6,9 @@
     background-color: #bdc3c7;
 }
 
-.bg-danger{
-    background-color: yellow;
+#bg-white{
+    background-color: #FFFFFF;
+    border-radius: 50px;
 }
 
 #bg-red{
@@ -74,4 +75,16 @@
 .slide-img {
     width: 100%;
     height: 700px;
+}
+
+.text-slide{
+    color: #F7D700;
+}
+
+.slid-text{
+    position: absolute; 
+    z-index: 1; 
+    width: 100%; 
+    margin-top: 
+    10rem;
 }
