@@ -25,6 +25,10 @@
     font-size: 18px;
 }
 
+.bg-drop-down{
+    background-color: #F4F4F8;
+}
+
 .w-10{
     width: 50px;
 }
@@ -123,4 +127,10 @@
 .flex-img{
     display: flex;
     justify-content: end;
+}
+
+/* Scand Page */
+.btn-drop-size {
+    width: 260px;
+    height: 60px;
 }
