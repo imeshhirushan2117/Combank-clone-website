@@ -138,13 +138,12 @@
 }
 
 .secand-p-btn{
-    background-color: #0957C2;  
+    /* background-color: #0957C2;   */
     color: white;
     width: 100%;
     height: 120px;
     font-size: 130%;
+    background-color: red;
 }
 
-.secand-p-btn :hover{
-    background-color:#0094F5;
-}
+
