@@ -149,11 +149,11 @@
     width: 100%;
 }
 
-#s-txt-img-hover :hover{
-    color: #0A5BCD;
-   
+/* fix */
+.s-img-text{
+    /* position: absolute;  */
+    /* z-index: 1;  */
+    /* width: 100%;  */
+    margin-bottom: 20%;
+    margin-left: 80px;
 }
-
-
-
-

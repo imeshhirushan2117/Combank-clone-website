@@ -166,7 +166,7 @@
                   ComBank Digital
                 </button>
               </a>
-              <p class="fs-6 fw-light user-select-none">Online Banking</p>
+              <p style="font-size: small;" class="fw-light user-select-none">Online Banking</p>
             </li>
 
             <li class="nav-item">
@@ -222,7 +222,7 @@
                     </p>
 
                     <div class="user-select-none mt-5">
-                      <button class="btn bi bi-arrow-right fw-lighter fs-6" id="bg-white">
+                      <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5  rounded rounded-pill" id="bg-white">
                         Tell me More
                       </button>
                     </div>
@@ -350,7 +350,7 @@
                       children money management.
                     </p>
                     <div class="user-select-none mt-5">
-                      <button class="btn bi bi-arrow-right fw-lighter fs-6" id="bg-white">
+                      <button class="btn bi bi-arrow-right fw-lighter fs-6 " id="bg-white">
                         Tell me More
                       </button>
                     </div>
@@ -524,31 +524,68 @@
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"> <img class="sp-img" src="assets/img/sp-1.PNG" alt="">
         
-          <div class="">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-              <div class="container-fluid">
+          <!--  -->
+          <div class="s-img-text">
+            <p class="fw-semibold fs-3 p-2">Savings Accounts</p>
+            <p class="fst-normal fs-6">We offer you a variety of Savings Accounts to choose from. Based on your needs, you can select an <br> account that helps you save while you earn.</p>
+          
+            <nav class="pt-5">
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active fw-medium" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Main Accounts</button>
+                <button class="nav-link fw-medium" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Senior Citizens Accounts</button>
+                <button class="nav-link fw-medium" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Minor and Youth Accounts</button>
+                
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
 
-                <div class="collapse navbar-collapse  fs-5" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <p class="pt-5 fst-normal fs-6">A selection of Savings Accounts with flexibility to suite your lifestyle.</p>
+                <div class="user-select-none mt-5 ">
+                  <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 me-4 rounded rounded-pill" id="bg-white">
+                    Tell me More
+                  </button>
 
-                    <li  id="s-txt-img-hover" class="nav-item pe-4 ">
-                      <a class="nav-link active " aria-current="page" href="">Main Accounts</a>
-                    </li>
-
-                    <li id="s-txt-img-hover" class="nav-item pe-4">
-                      <a class="nav-link active" aria-current="page" href="#">Senior Citizens Accounts</a>
-                    </li>
-
-                    <li id="s-txt-img-hover" class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Minor and Youth Accounts</a>
-                    </li>
-                  
-                  </ul>
+                  <button style="background-color: #FAE24B;" class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5  rounded-pill ">
+                    Apply Now
+                  </button>
                 </div>
 
               </div>
-            </nav>
+
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                
+                <p class="pt-5 fst-normal fs-6">Exclusive accounts for Senior Citizens to provide attractive interest rates coupled with convenience.</p>
+                <div class="user-select-none mt-5 ">
+                  <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 me-4 rounded rounded-pill" id="bg-white">
+                    Tell me More
+                  </button>
+
+                  <button style="background-color: #FAE24B;" class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5  rounded-pill ">
+                    Apply Now
+                  </button>
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+
+                <p class="pt-5 fst-normal fs-6">Save today for your children to give them a brighter tomorrow.</p>
+                <div class="user-select-none mt-5 ">
+                  <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 me-4 rounded rounded-pill" id="bg-white">
+                    Tell me More
+                  </button>
+
+                  <button style="background-color: #FAE24B;" class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5  rounded-pill ">
+                    Apply Now
+                  </button>
+                </div>
+
+              </div>
+              
+            </div>
+          
           </div>
+          <!--  -->
         
         </div>
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"><img class="sp-img" src="assets/img/sp-2.PNG" alt=""></div>
