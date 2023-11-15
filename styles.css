@@ -149,11 +149,15 @@
     width: 100%;
 }
 
-/* fix */
 .s-img-text{
-    /* position: absolute;  */
-    /* z-index: 1;  */
-    /* width: 100%;  */
     margin-bottom: 20%;
     margin-left: 80px;
+}
+
+/*Thread Page */
+.td-blue-line{
+    background-color: #094EAF;
+    width: 100%;
+    height: 200px;
+
 }
