@@ -159,5 +159,18 @@
     background-color: #094EAF;
     width: 100%;
     height: 200px;
+}
+
+.trd-cad-div{
+    width: 390px;
+}
+.trd-cad-div-2{
+    width: 390px;
+    height: 150px;
+}
+.cad-hover :hover{
+    background-color: #0950B3;
+    color: white;
+    cursor: pointer;
 
 }
