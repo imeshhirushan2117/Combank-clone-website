@@ -1497,11 +1497,13 @@
           </div>
 
         </div>
-        <button  style="height: 388px;" class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button style="height: 388px;" class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button  style="height: 388px;" class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button style="height: 388px;" class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -1559,19 +1561,24 @@
 
   <!-- video secction start -->
   <section class="position-relative container" style="top: -200px;">
-    <iframe width="1272" height="500"
-      src="https://www.youtube.com/embed/PaeKg-L49Bg?autoplay=1&mute=1&loop=1&controls=0" title="YouTube video player"
+    <!-- <iframe width="1272" height="500"
+      src="https://www.youtube.com/embed/PaeKg-L49Bg?autoplay=1&loop=1&controls=0" title="YouTube video player"
       frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe> -->
+
+    <iframe id="youtube-video" width="1272" height="500" src="https://www.youtube.com/embed/PaeKg-L49Bg?autoplay=1"
+      title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
   </section>
   <!-- video secction End -->
 
   <!-- fb page creat start -->
-  <section style="position: relative; top:-150px ">
-    <div class="container text-center user-select-none">
+  <section>
+    <div class="container text-center user-select-none d-flex justify-content-around align-items-around" style="position: relative; top:-150px;">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-4">
           <div class="d-flex ">
             <!--<img class="z-n1 " style=" position: absolute; width:295px; height:130px;" src="assets/img/fb-img.PNG"
               alt="">
@@ -1612,38 +1619,272 @@
             </div>
           </div>
         </div>
+
         <!--news page start -->
-        <div class="col-sm-9 p-4 ">
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        <div class="col-8 shadow pt-3 mb-5 bg-body-tertiary rounded"
+          style="position: relative; left: 80px; height:00px; width: 587px;">
+          <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="d-flex justify-content-start">
+                <p class="fw-bolder fs-2">Latest News</p>
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
+
+              <div>
+                <!--news-cad-1-start-->
+                <div class="carousel-item active">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-1.PNG" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Nov 14, 2023 </cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">Lending-focused ComBank posts robust Q3 <br> balance
+                        sheet growth</h5>
+                      <p class="card-text text-start pt-2">Group’s 9-month gross income up 30.88% to Rs 256 Bn.Loan book
+                        increases by Rs 51 Bn. in Q3 to Rs 1.239 Tn.Deposits cross Rs 2 Tn. milestoneA heightene...</p>
+                        <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+
+
+                  </div>
+                </div>
+                <!--news-cad-1-end-->
+
+                <!--news-cad-2-start-->
+                <div class="carousel-item">
+
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-2.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Nov 13, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        ComBank embarks on another sustainability <br> initiative planting 100,000...
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        12,000 trees planted on first day at 17 locations across the country The Commercial Bank of
+                        Ceylon has embarked on an ambitious nationwide tree p...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-2-end-->
+
+                <!--news-cad-3-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-3.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Nov 10, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        ComBank partners OUSL to offer loans up to Rs 10 mn. <br> for Essex Univers...
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        Higher education loans of up to Rs 10 million are now available from the Commercial Bank of
+                        Ceylon to undergraduates of the Open University of Sri Lan...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-3-end-->
+
+                <!--news-cad-4-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-4.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Nov 7, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        World Bank Managing Director of Operations <br> meets ComBank’s Anagi custo...
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        A group of women entrepreneurs supported by Commercial Bank of Ceylon PLC via the Bank’s Anagi
+                        Women’s Banking portfolio of products and services insp...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-4-end-->
+
+                <!--news-cad-5-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-5.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Nov 6, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        ComBank ranked Strongest Bank in Sri Lanka by <br>The Asian Banker
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        The Commercial Bank of Ceylon has been ranked the Strongest Bank in Sri Lanka in 2023 by TAB
+                        Insights, the global research and consulting subsidiary o...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-5-end-->
+
+                <!--news-cad-6-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-6.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Nov 2, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        Bloomberg Economists speak on Sri Lanka’s <br> economy at ComBank Trade Clu...
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        Two economists from Bloomberg,Messrs.Abhishek Gupta and Ankur Shukla shared their views on the
+                        economic outlook of Sri Lanka at a corporate event orga...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-6-end-->
+
+                <!--news-cad-7-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-7.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Nov 1, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        ComBank donates milestone 150th STEM <br> classroom
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        The Commercial Bank of Ceylon has reached a milestone in its national initiative to propagate
+                        Science, Technology, Engineering and Mathematics (STEM)...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-7-end-->
+
+                <!--news-cad-8-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-8.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Oct 30, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        iPhone 15 Pro, bill wipe-outs and other prizes for <br> ComBank Credit Card...
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        Exciting prizes including a coveted iPhone 15 Pro can be won by Credit Card holders of the
+                        Commercial Bank of Ceylon with a monthly spend of more than...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-8-end-->
+
+                <!--news-cad-9-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-9.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Oct 24, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        ComBank hosts ICC Chairperson Maria Fernanda <br> Garza at corporate event
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        The Commercial Bank of Ceylon recently hosted Ms Maria Fernanda Garza, the first woman to be
+                        appointed Chairperson of the International Chamber of Com...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-9-end-->
+
+                <!--news-cad-10-start-->
+                <div class="carousel-item">
+                  <div class="card" style="width: 35rem;">
+                    <img src="assets/img/news-img-10.jpg" class="card-img-top" alt="...">
+
+                    <blockquote class="blockquote mb-0 p-3 d-flex justify-content-start">
+                      <footer class="blockquote-footer fs-6 "><cite title="Source Title">Oct 20, 2023</cite></footer>
+                    </blockquote>
+
+                    <div class="card-body pt-0 ">
+                      <h5 class="card-title text-start fw-semibold">
+                        ‘ComBank Digital’ adjudged ‘Best Mobile Banking App’ <br> in Sri Lanka by G...
+                      </h5>
+                      <p class="card-text text-start  pt-2">
+                        ‘ComBank Digital’ – Commercial Bank’s omni-channel digital banking platform has been adjudged
+                        the ‘Best Mobile Banking App’ in Sri Lanka by Global Fin...
+                      </p>
+                      <a href="#" style="background-color: #FAE24A" class="btn  bi bi-arrow-right fw-semibold px-5 py-2 fw-semibold fs-6 shadow rounded-pill"> Read All</a>
+                    </div>
+                  </div>
+                </div>
+                <!--news-cad-10-end-->
+
+              </div> <!-- end div -->
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          </div>
+
+
+
+          <div style="height: 296px; position: relative; top: -619px;">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button style="right: 30px;" class="carousel-control-next" type="button"
+              data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          
+
+
         </div>
-        <!--news page end -->
+
       </div>
+      <!--news page end -->
+    </div>
   </section>
   <!-- fb page creat end -->
 
