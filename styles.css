@@ -132,6 +132,44 @@
     justify-content: end;
 }
 
+.flex-img-icon{
+    display: flex;
+    justify-content: end;
+    left: 94%;
+    top: 180px;
+   
+}
+
+
+.fixed-img-slid{
+    animation-name: example;
+    animation-duration: 16s; /* 4s for each image transition, total 16s for four images */
+    background-image: url("assets/img/call-static-img-1.png");
+    background-size: cover; /* Adjust this based on your needs */
+    
+}
+
+@keyframes example {
+    0% {
+        background-image: url("assets/img/call-static-img-1.png");
+    }
+    25% {
+        background-image: url("assets/img/call-static-img-2.png");
+    }
+    50% {
+        background-image: url("assets/img/call-static-img-3.png");
+    }
+    75% {
+        background-image: url("assets/img/call-static-img-4.png");
+    }
+    100% {
+        background-image: url("assets/img/call-static-img-1.png");
+    }
+}
+
+
+
+
 /* Scand Page */
 .btn-drop-size {
     width: 260px;
