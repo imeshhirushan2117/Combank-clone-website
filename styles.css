@@ -142,6 +142,7 @@
 
 
 .fixed-img-slid{
+   
     animation-name: example;
     animation-duration: 16s; /* 4s for each image transition, total 16s for four images */
     background-image: url("assets/img/call-static-img-1.png");
