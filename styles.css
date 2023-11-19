@@ -136,6 +136,7 @@
     display: flex;
     justify-content: end;
     left: 94%;
+    /* left: 50%; */
     top: 180px;
    
 }
@@ -169,7 +170,15 @@
 }
 
 
-
+.icon-icon{
+    display: none; 
+    position: relative; 
+    width: 40px; 
+    height: 40px;
+    border-radius: 100%; 
+    background-color: white ; 
+    margin-top: 30px;
+}
 
 /* Scand Page */
 .btn-drop-size {
@@ -193,6 +202,13 @@
     margin-bottom: 20%;
     margin-left: 80px;
 }
+
+
+
+
+
+
+
 
 /*Thread Page */
 .td-blue-line{

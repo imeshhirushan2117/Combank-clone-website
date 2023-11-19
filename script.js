@@ -9,3 +9,6 @@ const mouseOver = () => {
 const mouseOut = () => {
     document.getElementById('hover-img').src = 'assets/img/chat-c-1.png'
 }
+const iconClick = () => {
+    document.getElementById()
+}

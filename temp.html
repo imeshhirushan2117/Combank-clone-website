@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="icon" href="assets/img/webLogo.png" />
+</head>
+
+<body>
+
+    <p class="d-inline-flex gap-1">
+       
+      </p>
+      
+      
+
+
+    <!-- 2nd navBar -->
+     <!-- 2nd navBar -->
+  <!-- <div class="text-center sticky-top z-2">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+      <div class="container-fluid bg-comash p-0">
+        <div class="collapse navbar-collapse p-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 hstack gap-4">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold"  aria-current="page" href="#">Personal Banking</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">Business Banking</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">Non Resident Banking</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">
+                <button id="bg-red" type="button" class="btn text-white bi bi-box-arrow-in-right">
+                  ComBank Digital
+                </button>
+              </a>
+              <p style="font-size: small" class="fw-light user-select-none">
+                Online Banking
+              </p>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">
+                <img class="px-10" src="assets/img/logo.png" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div> -->
+
+
+    <!-- ======================================== -->
+
+    <p class="d-inline-flex gap-5 m-0">
+        <a class="nav-link active fw-bold" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+            Personal Banking
+        </a>
+
+        <a class="nav-link active fw-bold" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+            Business Banking
+        </a>
+
+        <a class="nav-link active fw-bold" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+            Non Resident Banking
+        </a>
+
+        <a class="nav-link active fw-bold" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+            Services
+        </a>
+
+        
+        <a class="nav-link active fw-bold" data-bs-toggle="collapse" href="" role="button" aria-expanded="false" aria-controls="">
+            <button id="bg-red" type="button" class="btn text-white bi bi-box-arrow-in-right">
+                ComBank Digital
+            </button>
+              
+        </a>
+        <a class="nav-link active fw-bold" aria-current="page" href="#">
+            <img class="px-10" src="assets/img/logo.png" alt="" />
+          </a>
+       
+      </p>
+
+
+      <div class="collapse m-0" id="collapseExample1">
+        <div class="card card-body">
+          1111111111111111111111111111111111111111111111
+        </div>
+      </div>
+
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+         22222222222222222222222222222222222222222222
+        </div>
+      </div>
+
+
+      <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+         3333333333333333333333333333333333333333333333333333333333
+        </div>
+      </div>
+
+      <div class="collapse" id="collapseExample4">
+        <div class="card card-body">
+         444444444444444444444444444444444444444444444444444444444444444444
+        </div>
+      </div>
+    <!-- ======================================== -->
+
+    <div class="flex-img-icon z-3"  style="position: fixed; cursor: pointer;">
+   
+        <ol>
+          <div class="fixed-img-slid p-4 bg-white" style=" width: 40px; height: 40px;  border-radius: 100%;" onclick="iconClick()"></div>
+          <a><img src="assets/img/call-static-img-1.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
+          <a><img  src="assets/img/call-static-img-2.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
+          <a><img  src="assets/img/call-static-img-3.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
+          <a><img  src="assets/img/call-static-img-4.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
+    
+        </ol>
+      </div>
+
+
+
+
+  <!-- auto slide img -->
+  <div class="d-flex position-relative z-1">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators" id="slid-line">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- slid on text -->
+          <div class="slid-text">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <div class="fs-2 fw-bolder text-slide">
+                    <p class="text-start user-select-none">
+                      Thriving Together, Leading <br />
+                      Stronger
+                    </p>
+                  </div>
+                  <div class="text-start fw-bold">
+                    <p class="user-select-none text-white">
+                      Commercial Bank, recognized as the Strongest Bank in Sri
+                      Lanka by the
+                      <br />
+                      Asian Banker Magazine, proudly forges ahead with the
+                      strength <br />
+                      of our togetherness, uniting superior financial
+                      performance and <br />
+                      operational excellence.
+                    </p>
+
+                    <div class="user-select-none mt-5">
+                      <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 rounded rounded-pill"
+                        id="bg-white">
+                        Tell me More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img src="assets/img/img_1.jpg" class="d-block user-select-none" alt="..." />
+        </div>
+
+        <div class="carousel-item">
+          <!-- slid on text -->
+          <div class="slid-text">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <div class="fs-2 fw-bolder text-slide">
+                    <p class="text-start user-select-none">Power to You</p>
+                  </div>
+                  <div class="text-start fw-bold">
+                    <p class="user-select-none text-white">
+                      To relax and chill.
+                    </p>
+                    <p class="user-select-none text-white">
+                      POWER TO YOU with Digital Banking from Commercial Bank !
+                    </p>
+
+                    <div class="user-select-none mt-5">
+                      <!-- <button class="btn bi bi-arrow-right fw-lighter fs-6" id="bg-white">
+                        Tell me More
+                      </button> -->
+                      <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 rounded rounded-pill"
+                        id="bg-white">
+                        Tell me More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/img_2.jpg" class="d-block user-select-none" alt="..." />
+        </div>
+
+        <div class="carousel-item">
+          <!-- slid on text -->
+          <div class="slid-text">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <div class="fs-2 fw-bolder text-slide">
+                    <p class="text-start user-select-none">
+                      ComBank wins Overall Gold <br />
+                      Award at BestWeb.lk 2023
+                    </p>
+                  </div>
+                  <div class="text-start fw-bold">
+                    <p class="user-select-none text-white">
+                      We are delighted to announce that the www.combank.lk has
+                      <br />emerged as the shining star of BestWeb.lk 2023,
+                      Sri Lanka’s <br />premier competition conducted by the
+                      LK Domain Registry.
+                    </p>
+
+                    <div class="user-select-none mt-5">
+                      <!-- <button class="btn bi bi-arrow-right fw-lighter fs-6" id="bg-white">
+                        Tell me More
+                      </button> -->
+                      <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 rounded rounded-pill"
+                        id="bg-white">
+                        Tell me More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/img_3.jpg" class="d-block user-select-none" alt="..." />
+        </div>
+
+        <div class="carousel-item">
+          <!-- slid on text -->
+          <div class="slid-text">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <div class="fs-2 fw-bolder text-slide">
+                    <p class="text-start user-select-none">Power to You</p>
+                  </div>
+                  <div class="text-start fw-bold">
+                    <p class="user-select-none text-white">
+                      To invest on your terms.
+                    </p>
+                    <p class="user-select-none text-white">
+                      POWER TO YOU with Digital Banking from Commercial Bank !
+                    </p>
+
+                    <div class="user-select-none mt-5">
+                      <!-- <button class="btn bi bi-arrow-right fw-lighter fs-6" id="bg-white">
+                        Tell me More
+                      </button> -->
+                      <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 rounded rounded-pill"
+                        id="bg-white">
+                        Tell me More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/img_4.jpg" class="d-block user-select-none" alt="..." />
+        </div>
+
+        <div class="carousel-item">
+          <!-- slid on text -->
+          <div class="slid-text">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <div class="fs-2 fw-bolder text-slide">
+                    <p class="text-start user-select-none">
+                      Introducing Flash Fam
+                    </p>
+                  </div>
+                  <div class="text-start fw-bold">
+                    <p class="user-select-none text-white">
+                      Register with Flash Fam Teen Digital Account for teens
+                      and teach your <br />
+                      children money management.
+                    </p>
+                    <div class="user-select-none mt-5">
+                      <!-- <button class="btn bi bi-arrow-right fw-lighter fs-6" id="bg-white">
+                        Tell me More
+                      </button> -->
+                      <button class="btn bi bi-arrow-right fw-lighter fs-6 shadow p-3 mb-5 rounded rounded-pill"
+                        id="bg-white">
+                        Tell me More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/img_5.jpg" class="d-block user-select-none" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev slid-btn" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next slid-btn" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <!-- fist page end  -->
+      <div class="text-center fist-end bg-end pt-4 fw-medium">
+        <div class="row f-end-hover">
+          <div class="col">
+            <i class="bi bi-building-gear text-end-icon"></i>
+            <p class="text-end-p">Tools & Calculator</p>
+          </div>
+
+          <div class="col">
+            <i class="bi bi-escape text-end-icon"></i>
+            <p class="text-end-p">Rewards & Promotion</p>
+          </div>
+
+          <div class="col">
+            <i class="bi bi-graph-up-arrow text-end-icon"></i>
+            <p class="text-end-p">Rates & Tariffs</p>
+          </div>
+
+          <div class="col">
+            <i class="bi bi-text-wrap text-end-icon"></i>
+            <p class="text-end-p">Exchange Rates</p>
+          </div>
+
+          <div class="col">
+            <i class="bi bi-journal-arrow-down text-end-icon"></i>
+            <p class="text-end-p">Applications</p>
+          </div>
+
+          <div class="col">
+            <i class="bi bi-journal-bookmark-fill text-end-icon"></i>
+            <p class="text-end-p">Important Notices</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
