@@ -467,8 +467,17 @@
   <!--End nav 4 Bar drop down secction-->
 
   <!-- =================================static-img-round============================================  -->
-  <div class="flex-img-icon z-3" style="position: fixed; cursor: pointer;">
-    <div class="fixed-img-slid p-4 bg-white" style=" width: 40px; height: 40px;  border-radius: 100%;" onclick=""></div>
+  <div class="flex-img-icon z-3"  style="position: fixed; cursor: pointer;">
+    <ol style="margin-top: 10px;">
+      <div class="fixed-img-slid p-4 bg-white" style=" width: 40px; height: 40px;  border-radius: 100%;" onclick="iconClick()"></div>
+    </ol>
+
+    <ol style="display: none; position: relative; right: 76px;     bottom: -51px;" id="stataic-img">
+      <a><img style="background-color: white;" src="assets/img/call-static-img-1.svg" alt="Description of Image 1" class="icon-icon d-flex"></a>
+      <a><img style="background-color: white;" src="assets/img/call-static-img-2.svg" alt="Description of Image 1" class="icon-icon d-flex"></a>
+      <a><img style="background-color: white;" src="assets/img/call-static-img-3.svg" alt="Description of Image 1" class="icon-icon d-flex"></a>
+      <a><img style="background-color: white;"  src="assets/img/call-static-img-4.svg" alt="Description of Image 1" class="icon-icon d-flex"></a>
+    </ol>
   </div>
   <!-- =============================================================================  -->
 
@@ -720,7 +729,7 @@
   </div>
 
   <div class="flex-img" style="cursor: pointer;">
-    <img src="assets/img/chat-c-1.png" onmouseout="mouseOut()" onmouseover="mouseOver()" id="hover-img"
+    <img src="assets/img/chat-c-1.png"  onmouseout="mouseOut()" onmouseover="mouseOver()" id="hover-img"
       class="d-block user-select-none absolute-img" alt="..." />
   </div>
 

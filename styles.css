@@ -135,9 +135,9 @@
 .flex-img-icon{
     display: flex;
     justify-content: end;
-    left: 94%;
+    left: 90%;
     /* left: 50%; */
-    top: 180px;
+    top: 155px;
    
 }
 
@@ -145,27 +145,29 @@
 .fixed-img-slid{
    
     animation-name: example;
-    animation-duration: 16s; /* 4s for each image transition, total 16s for four images */
-    background-image: url("assets/img/call-static-img-1.png");
-    background-size: cover; /* Adjust this based on your needs */
+    animation-duration: 16s;
+    background-image: url("assets/img/call-static-img-1.svg");
+    background-size: cover;
+  
+    
     
 }
 
 @keyframes example {
     0% {
-        background-image: url("assets/img/call-static-img-1.png");
+        background-image: url("assets/img/call-static-img-1.svg");  
     }
     25% {
-        background-image: url("assets/img/call-static-img-2.png");
+        background-image: url("assets/img/call-static-img-2.svg");
     }
     50% {
-        background-image: url("assets/img/call-static-img-3.png");
+        background-image: url("assets/img/call-static-img-3.svg");
     }
     75% {
-        background-image: url("assets/img/call-static-img-4.png");
+        background-image: url("assets/img/call-static-img-4.svg");
     }
     100% {
-        background-image: url("assets/img/call-static-img-1.png");
+        background-image: url("assets/img/call-static-img-5.svg");
     }
 }
 
@@ -176,7 +178,7 @@
     width: 40px; 
     height: 40px;
     border-radius: 100%; 
-    background-color: white ; 
+    /* background-color: white ;  */
     margin-top: 30px;
 }
 
