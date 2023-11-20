@@ -9,6 +9,19 @@ const mouseOver = () => {
 const mouseOut = () => {
     document.getElementById('hover-img').src = 'assets/img/chat-c-1.png'
 }
+
+
+
+
 const iconClick = () => {
-    document.getElementById()
+    var icon = document.getElementById('stataic-img');
+
+    if(icon.style.display == 'none'){
+        icon.style.display = 'block'
+    }else{
+        icon.style.display = 'none'
+    }
+
+    
+
 }

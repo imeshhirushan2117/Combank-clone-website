@@ -127,14 +127,15 @@
     <!-- ======================================== -->
 
     <div class="flex-img-icon z-3"  style="position: fixed; cursor: pointer;">
-   
         <ol>
-          <div class="fixed-img-slid p-4 bg-white" style=" width: 40px; height: 40px;  border-radius: 100%;" onclick="iconClick()"></div>
+          <div class="fixed-img-slid p-4 bg-white" style=" width: 40px; height: 40px;  border-radius: 100%;" onpointermove="mouse()" onclick="iconClick()"></div>
+        </ol>
+
+        <ol style="display: none;" id="stataic-img">
           <a><img src="assets/img/call-static-img-1.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
           <a><img  src="assets/img/call-static-img-2.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
           <a><img  src="assets/img/call-static-img-3.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
           <a><img  src="assets/img/call-static-img-4.png" alt="Description of Image 1" class="icon-icon d-flex"></a>
-    
         </ol>
       </div>
 
